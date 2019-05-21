@@ -4,7 +4,7 @@
 
 {
 	let a="10";
-	 a="11";
+	 let a="11";
 	document.write(a);
 }
 // document.write(b);
