@@ -1,0 +1,30 @@
+.one
+{
+	height: 300;
+	width: 100%;
+	background-color: gray;
+}
+.two
+{
+	padding: 50px;
+}
+.buttons
+{
+	height: 45px;
+    width: 175px;
+    font-size: 25px;
+    background-color: red;
+}
+.submit
+{
+	height: 45px;
+    width: 175px;
+    font-size: 25px;
+    background-color: lightgreen;
+}
+div
+{
+	height: 250;
+	width: 100%;
+	background-color:yellow;
+}

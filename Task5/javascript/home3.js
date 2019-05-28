@@ -1,19 +1,37 @@
 function red()
 {
-	var a=document.getElementById("one").innerHTML;
-	one.style.background = "rgb(255,0,0)";
+	if(document.getElementById("one").style.background =="red")
+	{
+		document.getElementById("one").style.background ="white";
+	}
+	else
+	{
+		document.getElementById("one").style.background ="red";
+	}
 	
 
 }
 function green()
 {
-	document.getElementById("two");
-	two.style.background = "rgb(255,255,0)";
+	if(document.getElementById("two").style.background =="green")
+	{
+		document.getElementById("two").style.background ="white";
+	}
+	else
+	{
+		document.getElementById("two").style.background ="green";
+	}
 
 }
 function blue()
 {
-	document.getElementById("three");
-	three.style.background = "rgb(255,0,255)";
+	if(document.getElementById("three").style.background =="blue")
+	{
+		document.getElementById("three").style.background ="white";
+	}
+	else
+	{
+		document.getElementById("three").style.background ="blue";
+	}
 
 }
