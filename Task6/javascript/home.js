@@ -26,14 +26,16 @@ function Select_all()
 
 }
 function result()
+
 {
+	
 	var items=document.getElementsByName('addition');
 				var sum=0;
 				for(var i=0; i<items.length; i++){
 					if(items[i].type=='checkbox' && items[i].checked==true)
 						sum=parseInt(items[i].value)+sum;
 				}
-				var show=document.write("Total sum "+sum);
-				document.getElementById("demo").innerHTML=show;
+				// var show=document.write("Total sum = "+sum);
+				document.getElementById("demo").innerHTML="Total sum = "+sum;
 			}
 

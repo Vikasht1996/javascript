@@ -2,11 +2,11 @@
 {
 	height: 300;
 	width: 100%;
-	background-color: gray;
+	background-color: rgb(255,255,255);
 }
-.two
+.pad
 {
-	padding: 50px;
+	margin-left: 500px;
 }
 .buttons
 {
@@ -22,9 +22,12 @@
     font-size: 25px;
     background-color: lightgreen;
 }
-div
+p
 {
-	height: 250;
+	height: 150px;
 	width: 100%;
-	background-color:yellow;
+	background-color:lightgray;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 154px;
 }
